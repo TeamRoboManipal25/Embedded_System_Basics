@@ -43,7 +43,7 @@ This task aims to introduce you to fundamental concepts related to microcontroll
 
               3 × 220Ω resistors
             
-            🎯 Requirements:
+  🎯 Requirements:
          
                 🔴 Red ON for 5 seconds
              
