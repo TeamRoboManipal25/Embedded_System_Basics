@@ -17,7 +17,7 @@ This task aims to introduce you to fundamental concepts related to microcontroll
 - Understand their working principles, use cases, and how they are implemented on Arduino.
 
   **Reference Link:**
-- [Arduino Communication Protocols](https://docs.arduino.cc/learn/)
+- [Arduino Communication Protocols](https://docs.arduino.cc/learn/communication/wire/)
 
 ## 3. Understanding Arduino Datasheets
 - Read and analyze the datasheets of the following Arduino boards:
