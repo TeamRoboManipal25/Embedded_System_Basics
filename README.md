@@ -35,7 +35,7 @@ This task aims to introduce you to fundamental concepts related to microcontroll
 
 
 ## Deadline
-- Submit your findings by **[22/02/2025]**.
+- Submit your findings by **[18/02/2025]**.
 
 ## Notes
 - Ensure you understand the concepts thoroughly, as they form the foundation for embedded systems development.
