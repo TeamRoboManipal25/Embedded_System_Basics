@@ -79,7 +79,10 @@ This task aims to introduce you to fundamental concepts related to microcontroll
 
       If the button is pressed before the LED turns ON, display "Too Early!" and restart the game
          
-
+## Deliverables
+- Detailed Report about Micro-controllers v/s Micro-Processors,Communication Protocols
+- Working Sketches of TinkerCad Simulation Task
+  
 ## Deadline
 - Submit your findings by **[18/02/2025]**.
 
