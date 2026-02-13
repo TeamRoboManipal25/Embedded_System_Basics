@@ -5,11 +5,11 @@ This task aims to introduce you to fundamental concepts related to microcontroll
 
 ## Task Details
 
-## 1. Microcontrollers vs. Microprocessors
+## 1.🧠 Microcontrollers vs. Microprocessors
 - Research and understand the key differences between microcontrollers and microprocessors.
 - Compare their applications, advantages, and limitations.
 
-## 2. Communication Protocols on Arduino
+## 2.📡 Communication Protocols on Arduino
 - Research the following communication protocols commonly used in Arduino development:
   - **I2C (Inter-Integrated Circuit)**
   - **UART (Universal Asynchronous Receiver-Transmitter)**
@@ -19,7 +19,7 @@ This task aims to introduce you to fundamental concepts related to microcontroll
   **Reference Link:**
 - [Arduino Communication Protocols](https://docs.arduino.cc/learn/communication/wire/)
 
-## 3. Understanding Arduino Datasheets
+## 3.📄 Understanding Arduino Datasheets
 - Read and analyze the datasheets of the following Arduino boards:
   - **Arduino Nano**
   - **Arduino Uno**
@@ -35,7 +35,7 @@ This task aims to introduce you to fundamental concepts related to microcontroll
 
 ## 4. TinkerCad Simulations 
 ###   Task_1 : Traffic Light Simulation:
-   Build a simple traffic light simulation in TinkerCAD using following components :
+  ⚙️ Build a simple traffic light simulation in TinkerCAD using following components :
         
               Arduino UNO
          
@@ -45,7 +45,7 @@ This task aims to introduce you to fundamental concepts related to microcontroll
             
   🎯 Requirements:
          
-                🔴 Red ON for 5 seconds
+          1.    🔴 Red ON for 5 seconds
              
                 🟡 Yellow ON for 2 seconds
              
@@ -55,29 +55,53 @@ This task aims to introduce you to fundamental concepts related to microcontroll
          
             Only one LED should be ON at any time
 
-###   Task_2 : Reaction Time Tester:
+        2.  Accept timing values from Serial Monitor using:
 
-  Build a simple reaction time tester in TinkerCAD using the following components :
+            - SET red,green,blue
+              Example:
+              SET 5000,4000,3000
+            
+              The three values (in milliseconds) will be the
+              ON duration for RED, GREEN and BLUE LEDs
+              (one by one).
+            
+            - If user enters:
+            
+              SHOW CONFIG
+              Display the current timing values.
 
+Task_2 : Reaction Time Tester
+  
+  ⚙️ Build a reaction time tester in Tinkercad using the following components:
+  
         Arduino UNO
-
+        
         1 LED
-
+        
         1 Push button
-
+        
         1 × 220Ω resistor
-
+        
         1 × 10kΩ resistor (pull-down for button)
+
 
   🎯 Requirements:
 
-      Print "Get Ready..." in the Serial Monitor when the simulation starts
-
-      After a random delay (2–5 seconds), turn the LED ON
-
-      Measure and display the reaction time (in milliseconds) when the button is pressed
-
-      If the button is pressed before the LED turns ON, display "Too Early!" and restart the game
+        At the start, allow the user to input the number of trials via Serial Monitor:
+        
+        TRIALS n
+        Example: TRIALS 5
+        
+        For each trial:
+        
+        1. Print "Get Ready..." in the Serial Monitor
+        2. After a random delay (2–5 seconds), turn the LED ON
+        3. Measure and display the reaction time (in milliseconds) when the button is pressed
+        4. If the button is pressed before the LED turns ON, display "Too Early!" and repeat the trial
+        
+        After all trials are completed, print:
+        
+        Average Reaction Time: XXXX ms
          
 ## Deliverables
 - Detailed Report about Micro-controllers v/s Micro-Processors,Communication Protocols
